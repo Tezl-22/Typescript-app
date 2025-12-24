@@ -98,10 +98,3 @@ typescript-practice/
 # Компіляція TypeScript
 npm run build
 ```
-
-## Технології
-
-- TypeScript 5.9.3
-- HTML5
-- CSS3
-- DOM API
