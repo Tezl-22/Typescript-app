@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Практика</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            transition: background-color 0.3s;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <h1>Знайомство з TypeScript</h1>
+
+    <div class="form-group">
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" placeholder="Введіть ваше ім'я">
+    </div>
+
+    <div class="form-group">
+        <label for="age">Вік:</label>
+        <input type="number" id="age" placeholder="Введіть ваш вік">
+    </div>
+
+    <div class="form-group">
+        <label for="hobby">Хобі:</label>
+        <input type="text" id="hobby" placeholder="Введіть ваше хобі">
+    </div>
+
+    <div class="form-group">
+        <label for="experience">Досвід (років):</label>
+        <input type="number" id="experience" placeholder="Скільки років займаєтесь">
+    </div>
+
+    <button id="greetBtn">Привітати</button>
+
+    <div class="form-group">
+        <label for="colorSelect">Оберіть колір фону:</label>
+        <select id="colorSelect"></select>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
